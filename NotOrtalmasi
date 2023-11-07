@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class NotOrtalamasi{
+public static void main(String[] args) {
+        Scanner verial=new Scanner(System.in);
+        int t,m,f,h;
+        System.out.print("Türkçe Dersi Notunu giriniz:");
+        t=verial.nextInt();
+        System.out.print("Matemadtik Dersi Notunu giriniz :");
+        m=verial.nextInt();
+        System.out.print(" Fizik Dersi Notunu giriniz: ");
+        f=verial.nextInt();
+
+        System.out.print(" Sınıf Geçme Oratlmasını giriniz: ");
+        h=verial.nextInt();
+        double s = (t+m+f)/3;
+        System.out.println("Derslerin Not ortalaması : " + s);
+        if (s >=h) System.out.print("Ortalmanız  " +s+ " Olduğu için geçtiniz" );
+        else System.out.print( "Ortalamanız  " +h +"  den küçük olduğu için kaldırınz");
+
+    }
+}
