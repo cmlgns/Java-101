@@ -9,10 +9,6 @@ public class Taximetre {
         ucret = (tx*tkm)+ 10;
                 if (ucret < 20) System.out.println("Takismetre ücreti: 20 Tl dir ");
                else if (ucret >= 20) System.out.println("Takismetre ücreti: "+ucret);
-
-
-
-
     }
 
 }
