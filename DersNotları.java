@@ -16,7 +16,5 @@ public class DersNotları {
         System.out.println(" Girdiğiniz Notların Ortlmanız \t" + (tp/5) +"\t");
         if ((tp/5) >= 55) System.out.print("Ortalmanız "+tp/5 + " Tebirkler sınıfı geçtiniz");
         else  System.out.println(" Üzgünüm notunuz \t"+ tp/5 +"  sınıf geçebilmeniz için yeterli değildir");
-
-       // { & (((M)&(F)&(T)&(K)&(Mu)) >0) }
     }
 }
